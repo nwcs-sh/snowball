@@ -152,9 +152,9 @@ func stemSpecialWord(word string) (stemmed string) {
 		stemmed = "proceed"
 	case "proceeding":
 		stemmed = "proceed"
-	case "shimmer", "shimmering", "shimmers", "shimmery":
+	case "shimmer", "shimmered", "shimmering", "shimmers", "shimmery":
 		stemmed = "shimmer"
-	case "sparkle", "sparkles", "sparkling", "sparkly":
+	case "sparkle", "sparkled", "sparkles", "sparkling", "sparkly":
 		stemmed = "sparkl"
 	case "singly":
 		stemmed = "singl"
